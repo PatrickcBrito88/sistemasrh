@@ -11,6 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/diretoria")
 public class DiretoriaResourceLeitura {
 
+    /*
+    Esta classe faz a função do mundo externo se conectar à API. Esta classe em específico serve para métodos de leitura,
+    como Get
+     */
     private DiretoriaService diretoriaService;
 
 

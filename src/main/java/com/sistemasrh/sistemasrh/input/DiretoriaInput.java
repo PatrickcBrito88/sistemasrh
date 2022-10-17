@@ -7,6 +7,8 @@ import lombok.Setter;
 @Setter
 public class DiretoriaInput {
 
+    //Classe que representa os dados que serão informados pelo usuário
+
     private String nome;
     private String sigla;
     private String senha;

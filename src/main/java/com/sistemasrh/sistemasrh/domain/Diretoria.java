@@ -14,6 +14,9 @@ import javax.persistence.Id;
 @Entity
 public class Diretoria {
 
+    /*
+    Classe de domínio, representa um objeto na aplicação e também no banco de dados.
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

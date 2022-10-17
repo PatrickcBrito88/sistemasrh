@@ -13,6 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/diretoria")
 public class DiretoriaResourceEscrita {
 
+    /*
+    Esta classe faz a função do mundo externo se conectar à API. Esta classe em específico serve para métodos de escrita,
+    como Post, Put, Patch
+     */
     private DiretoriaService diretoriaService;
 
     public DiretoriaResourceEscrita(DiretoriaService diretoriaService) {

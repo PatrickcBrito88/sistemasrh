@@ -9,6 +9,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class DiretoriaDtoAssembler {
 
+    /*Esta classe utiliza as funções da biblioteca do modelMapper para transformar uma instâcia de um objeto
+     * diretoria em um objeto diretoriaDto
+     */
     @Autowired
     private ModelMapper modelMapper;
 

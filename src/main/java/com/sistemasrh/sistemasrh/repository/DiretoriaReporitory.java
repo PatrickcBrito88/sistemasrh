@@ -7,4 +7,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface DiretoriaReporitory extends JpaRepository<Diretoria, Integer> {
 
+    // Interface que representa as funções no banco de dados
+
 }

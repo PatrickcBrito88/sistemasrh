@@ -7,6 +7,10 @@ import lombok.Setter;
 @Setter
 public class DiretoriaDto {
 
+    /*
+    Classes Dtos são classes que representam as informações que serão exibidas para o usuário
+     */
+
     private Integer id;
     private String nome;
     private String sigla;

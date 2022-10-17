@@ -15,16 +15,16 @@ import java.util.List;
 @Service
 public class DiretoriaService {
 
+    //Classe que representa as regras de negócio. Os métodos aqui representados serão utilizados nos controllers
 
     private DiretoriaReporitory diretoriaReporitory;
-    private ModelMapper modelMapper;
-
     private DiretoriaAssembler diretoriaAssembler;
     private DiretoriaDtoAssembler diretoriaDtoAssembler;
 
-    public DiretoriaService(DiretoriaReporitory diretoriaReporitory, ModelMapper modelMapper, DiretoriaAssembler diretoriaAssembler, DiretoriaDtoAssembler diretoriaDtoAssembler) {
+    public DiretoriaService(DiretoriaReporitory diretoriaReporitory,
+                            DiretoriaAssembler diretoriaAssembler,
+                            DiretoriaDtoAssembler diretoriaDtoAssembler) {
         this.diretoriaReporitory = diretoriaReporitory;
-        this.modelMapper = modelMapper;
         this.diretoriaAssembler = diretoriaAssembler;
         this.diretoriaDtoAssembler = diretoriaDtoAssembler;
     }
