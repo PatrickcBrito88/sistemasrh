@@ -19,7 +19,7 @@ public class Diretoria {
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer  id;
     private String nome;
     private String sigla;
     private String senha;
