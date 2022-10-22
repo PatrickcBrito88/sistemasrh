@@ -1,4 +1,4 @@
-package com.sistemasrh.sistemasrh.exception;
+package com.sistemasrh.sistemasrh.infrastructure.exception;
 
 public class EntidadeNaoEncontradaException extends NegocioException{
 
