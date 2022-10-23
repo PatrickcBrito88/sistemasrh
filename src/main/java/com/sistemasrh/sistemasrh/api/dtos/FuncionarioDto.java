@@ -12,5 +12,5 @@ public class FuncionarioDto {
     private String nome;
     private ECargos cargo;
     private String email;
-    private UnidadeOrganizacionalDto lotacao;
+    private UnidadeOrganizacionalFuncionarioDto lotacao;
 }

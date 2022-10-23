@@ -1,6 +1,6 @@
 package com.sistemasrh.sistemasrh.api.controller;
 
-import com.sistemasrh.sistemasrh.infrastructure.domain.UnidadeOrganizacional;
+import com.sistemasrh.sistemasrh.api.dtos.UnidadeOrganizacionalDto;
 import com.sistemasrh.sistemasrh.infrastructure.services.UnidadeOrganizacionalService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,7 +22,7 @@ public class UnidadeOrganizacionalResourceLeitura {
     }
 
     @GetMapping("/{id}")
-    public UnidadeOrganizacional buscarUnidadeOrganizacional(@PathVariable Integer id){
+    public UnidadeOrganizacionalDto buscarUnidadeOrganizacional(@PathVariable Integer id){
         return unidadeOrganizacionalService.buscar(id);
     }
 }

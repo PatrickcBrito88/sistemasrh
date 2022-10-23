@@ -18,7 +18,7 @@ public class UnidadeOrganizacionalDto {
     private Integer id;
     private String nome;
     private String sigla;
-    private List<Funcionario> listaFuncionarios = new java.util.ArrayList<>();
+    private List<FuncionarioLotacaoDto> listaFuncionarios = new java.util.ArrayList<>();
     private ETipoUnidade tipoUnidade;
     private String email;
 }
